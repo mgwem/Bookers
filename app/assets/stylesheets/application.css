@@ -22,6 +22,14 @@ main {
   font-size: 13px;
 }
 
+p, td {
+  margin: 33px;
+  font-family: verdana, arial, helvetica, sans-serif;
+  line-height: 18px;
+  font-size: 13px;
+}
+
+
 a {
   color: #333;
 }
