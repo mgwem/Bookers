@@ -1,4 +1,7 @@
 <main>
+  <% if flash[:notice] %>
+    <p id="notice"><%= flash[:notice] %></p>
+  <% end %>
   <p><strong>Title:</strong>&nbsp;<%= @book.title %></p>
   <p><strong>Body:</strong>&nbsp;<%= @book.body %></p>
 
