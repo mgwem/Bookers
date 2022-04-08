@@ -82,7 +82,17 @@ td {
   color: #fff;
 }
 
-ul li {
+#errors_explanation ul li {
   font-size:12px;
   list-style: square;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+label {
+  display: block;
 }
